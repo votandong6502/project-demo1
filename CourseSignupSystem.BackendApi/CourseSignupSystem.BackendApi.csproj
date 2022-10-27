@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CourseSignupSystem.Application\CourseSignupSystem.Application.csproj" />
+    <ProjectReference Include="..\CourseSignupSystem.Data\CourseSignupSystem.Data.csproj" />
+    <ProjectReference Include="..\CourseSignupSystem.ViewModels\CourseSignupSystem.ViewModels.csproj" />
+    <ProjectReference Include="..\CourseSignupSystemUtilities\CourseSignupSystemUtilities.csproj" />
+  </ItemGroup>
+
+</Project>
